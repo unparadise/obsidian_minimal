@@ -2098,6 +2098,21 @@ input[type=checkbox]:checked {
   border-radius:6px;
   cursor:var(--cursor);
 }
+
+.nav-file-tag {
+  color: var(--background-translucent);
+  background-color: var(--text-faint);
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 14px;
+  margin-left: 4px;
+  padding: 0 4px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
 .nav-file-title.is-being-dragged,
 .nav-file-title.is-active,
 body:not(.is-grabbing) .nav-file-title.is-active:hover {
