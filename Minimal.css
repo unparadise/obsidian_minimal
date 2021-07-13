@@ -929,7 +929,8 @@ MINIMAL STYLING */
 /* Headings and fonts */
 
 h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
-h1,h2,h3,h4 {letter-spacing:-0.02em;} 
+/*h1,h2,h3,h4 {letter-spacing:-0.02em;} */
+h1,h2,h3,h4 {letter-spacing:10em;}
 
 body, input, button  {
   font-family:var(--font-ui);
@@ -1003,7 +1004,7 @@ body, input, button,
 .markdown-preview-view h4,
 .HyperMD-header-4,
 .cm-s-obsidian .cm-header-4 {
-  font-variant:small-caps;
+  /*font-variant:small-caps; */
   letter-spacing:0.02em;
   color:var(--text-normal);
   font-weight:500;
@@ -1012,7 +1013,7 @@ body, input, button,
 .markdown-preview-view h5,
 .HyperMD-header-5,
 .cm-s-obsidian .cm-header-5 {
-  font-variant:small-caps;
+  /*font-variant:small-caps;*/
   letter-spacing:0.02em;
   color:var(--text-normal);
   font-weight:500;
@@ -1021,7 +1022,7 @@ body, input, button,
 .markdown-preview-view h6,
 .HyperMD-header-6,
 .cm-s-obsidian .cm-header-6 {
-  font-variant:small-caps;
+  /*font-variant:small-caps;*/
   letter-spacing:0.02em;
   color:var(--text-muted);
   font-weight:400;
