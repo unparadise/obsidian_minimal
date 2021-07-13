@@ -2803,7 +2803,7 @@ body.hider-frameless:not(.hider-ribbon) .side-dock-actions {
   padding-top:24px;
 }
 body:not(.hider-ribbon) .side-dock-ribbon-action {
-  padding:6px 0 0 0;
+  padding:6px 0 0 1px;
 }
 
 /* --------------- */
