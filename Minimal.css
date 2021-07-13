@@ -151,10 +151,10 @@ Disabled features */
   --font-smaller:11px;
   --font-smallest:10px;
   --h1:1.5em;
-  --h2:1.25em;
-  --h3:1em;
-  --h4:0.90em;
-  --h5:0.85em;
+  --h2:1.35em;
+  --h3:1.15em;
+  --h4:1.05em;
+  --h5:0.95em;
   --h6:0.85em;
   --normal-weight:400;   /* Switch to 300 if you want thinner default text */
   --bold-weight:600;     /* Switch to 700 if you want thicker bold text */
