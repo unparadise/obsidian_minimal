@@ -2794,6 +2794,9 @@ input.search-input:focus {
   padding-bottom:20px;
 }
 .side-dock-ribbon {
+  flex: 0 0 40px;
+  display: flex;
+  flex-direction: column;
   border-left:0;
 }
 body.hider-frameless:not(.hider-ribbon) .side-dock-actions {
