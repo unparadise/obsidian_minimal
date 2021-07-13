@@ -1,0 +1,1 @@
+This is my work in progress version of the obsidian minimal theme.
