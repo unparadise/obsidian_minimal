@@ -1097,7 +1097,7 @@ body, input, button,
 .frontmatter-container .tag,
 .tag {
   background-color:transparent;
-  border:1px solid var(--background-modifier-border);
+  border:2px solid var(--background-modifier-border);
   color:var(--text-muted);
   font-size:var(--font-small);
   font-family:var(--font-ui);
@@ -2788,22 +2788,24 @@ input.search-input:focus {
   margin-right:0;
 }
 .side-dock-ribbon-action {
+  stroke-width: 3px;
   padding:6px 0;
 }
 .side-dock-settings {
+  stroke-width: 3px;
   padding-bottom:20px;
 }
 .side-dock-ribbon {
   flex: 0 0 40px;
   display: flex;
   flex-direction: column;
-  border-left:0;
+  /* border-left:0;*/
 }
 body.hider-frameless:not(.hider-ribbon) .side-dock-actions {
   padding-top:24px;
 }
 body:not(.hider-ribbon) .side-dock-ribbon-action {
-  padding:6px 0 0 1px;
+  padding:6px 0 0 0;
 }
 
 /* --------------- */
