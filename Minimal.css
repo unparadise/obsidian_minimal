@@ -931,7 +931,7 @@ MINIMAL STYLING */
 
 h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
 /*h1,h2,h3,h4 {letter-spacing:-0.02em;} */
-h1,h2,h3,h4 {letter-spacing:0.01em;}
+h1,h2,h3,h4 {letter-spacing:-0.01em;}
 
 body, input, button  {
   font-family:var(--font-ui);
