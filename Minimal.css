@@ -1512,7 +1512,7 @@ border-bottom:1px solid #999;
 /* Window frame */
 
 .titlebar {
-  background:var(--background-secondary);
+  background:var(--background-sidedock);
   border-bottom:1px solid var(--background-modifier-border);
 }
 .hider-frameless .titlebar {
@@ -2769,17 +2769,18 @@ input.search-input:focus {
 /* Status bar */
 
 .status-bar {
-  background-color:var(--background-secondary);
+  /* background-color:var(--background-secondary); */
+  background-color: var(--background-sidedock);
   color:var(--text-muted);
   font-size:var(--font-smaller);
   border-width:var(--border-width-alt);
-  padding:0 5px 0;
+  padding:0 4px 0;
 }
 .status-bar-item {
-  padding:0 5px;
+  padding:0 16px;
 }
 .status-bar-item-segment {
-  margin-right:10px;
+  margin-right:16px;
 }
 
 /* --------------- */
