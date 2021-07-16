@@ -2832,7 +2832,8 @@ input.search-input:focus {
 }
 .side-dock-ribbon-action {
   stroke-width: 2px;
-  padding:10px 0;
+  margin-top: 16px;
+  padding-bottom: 20px;
 }
 .side-dock-settings {
   stroke-width: 2px;
