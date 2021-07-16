@@ -929,9 +929,9 @@ MINIMAL STYLING */
 
 /* Headings and fonts */
 
-h1,h2,h3,h4,h5,strong {font-weight:var(--bold-weight);}
-/*h1,h2,h3,h4 {letter-spacing:-0.02em;} */
-/* h1,h2,h3,h4 {letter-spacing:-0.11em;} */
+h1,h2,h3,h4,h5,strong {
+  font-weight:var(--bold-weight);
+}
 
 body, input, button  {
   font-family:var(--font-ui);
