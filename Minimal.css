@@ -193,6 +193,7 @@ Disabled features */
     --background-modifier-border-focus:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 20%));
     --background-modifier-form-field:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 6%));
     --background-modifier-form-field-highlighted:hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 8%));
+    --background-sidedock: hsl(var(--base-h),var(--base-s),calc(var(--base-l) + 5%));
     --text-normal:hsl(var(--base-h),var(--base-s),calc(var(--base-l) - 80%));
     --text-muted:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 45%));
     --text-faint:hsl(var(--base-h),calc(var(--base-s) - 5%),calc(var(--base-l) - 25%));
@@ -1757,7 +1758,7 @@ border-bottom:1px solid #999;
 .cm-formatting-list {
   margin-left: 24px;
   margin-right: 6px;
-  color:var(--text-faint) !important;
+  color:var(--text-accent) !important;
 }
 /* Editor Mode Quotes */
 .cm-formatting-quote {
@@ -2803,8 +2804,10 @@ input.search-input:focus {
   z-index:9;
 }
 .workspace-ribbon-collapse-btn {
-  margin:0;
-  padding-top:8px;
+  display: block;
+  margin-left: 8px;
+  margin-right: auto;
+  padding-top:4px;
 }
 .workspace-ribbon-collapse-btn,
 .view-action,
@@ -2815,7 +2818,8 @@ input.search-input:focus {
 .workspace-ribbon {
   border-width:var(--border-width-alt);
   border-color:var(--background-modifier-border);
-  background:var(--background-secondary);
+  /* background:var(--background-secondary); */
+  background: var(--background-sidedock);
 }
 .workspace-ribbon.mod-right {
   right:0;
@@ -2827,15 +2831,15 @@ input.search-input:focus {
   margin-right:0;
 }
 .side-dock-ribbon-action {
-  stroke-width: 3px;
-  padding:6px 0;
+  stroke-width: 2px;
+  padding:10px 0;
 }
 .side-dock-settings {
-  stroke-width: 3px;
+  stroke-width: 2px;
   padding-bottom:20px;
 }
 .side-dock-ribbon {
-  flex: 0 0 40px;
+  flex: 0 0 50px;
   display: flex;
   flex-direction: column;
   /* border-left:0;*/
