@@ -2831,6 +2831,8 @@ input.search-input:focus {
   margin-right:0;
 }
 .side-dock-ribbon-action {
+  transform-origin: center;
+  transform: scale(1.2);
   stroke-width: 2px;
   margin-top: 16px;
   padding-bottom: 20px;
