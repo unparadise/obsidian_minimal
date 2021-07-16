@@ -2314,7 +2314,7 @@ h5:hover .heading-collapse-indicator.collapse-indicator svg,
   background:transparent;
   float:left;
   margin-right:12px;
-  margin-top:10px;
+  margin-top:12px;
   margin-left:6px;
   display:inline-block;
   line-height:0;
@@ -2338,6 +2338,28 @@ h5:hover .heading-collapse-indicator.collapse-indicator svg,
 .markdown-preview-view ul > li h3,
 .markdown-preview-view ul > li h4 {
   display:inline;
+}
+
+.markdown-preview-view ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.markdown-preview-view ol li::before {
+  content: counter(li)".";
+  text-align:left;
+  padding:0;
+  background:transparent;
+  float:left;
+  margin-right:12px;
+  margin-top:0px;
+  margin-left:6px;
+  display:inline-block;
+  color: var(--text-accent);
+}
+
+.markdown-preview-view ol li {
+  counter-increment: li;
 }
 
 /* Folding icons in Edit mode */
