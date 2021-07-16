@@ -162,7 +162,7 @@ Disabled features */
   --line-height:1.75;
   --max-width:87%;       /* Amount of padding around the text, use 90% for narrower padding */
   --nested-padding:3.5%; /* Amount of padding for quotes and transclusions */
-  --icon-muted:0.4;
+  --icon-muted:0.5;
   --border-width:1px;
   --border-width-alt:1px;
 
