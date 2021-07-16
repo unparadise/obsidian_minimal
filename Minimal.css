@@ -929,12 +929,12 @@ MINIMAL STYLING */
 
 /* Headings and fonts */
 
-h1,h2,h3,h4,h5,strong {
-  font-weight:var(--bold-weight);
-}
-
 body, input, button  {
   font-family:var(--font-ui);
+}
+
+h1,h2,h3,h4,h5,strong {
+  font-weight:var(--bold-weight);
 }
 
 .popover,
