@@ -2322,7 +2322,8 @@ h5:hover .heading-collapse-indicator.collapse-indicator svg,
   width:4px;
   border:0px;
   vertical-align:middle;
-  color:var(--text-faint);
+  /* color:var(--text-faint); */
+  color: var(--text-accent);
   transform:translateX(-2px);
 }
 .markdown-preview-view ul > li:not(.task-list-item).is-collapsed::before {
