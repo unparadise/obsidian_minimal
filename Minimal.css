@@ -1542,6 +1542,7 @@ border-bottom:1px solid #999;
 
 .view-actions .view-action {
   margin-right:12px;
+  stroke-width:3px;
   z-index:15;
   background:var(--background-primary);
 }
