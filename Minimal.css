@@ -2779,7 +2779,7 @@ input.search-input:focus {
 }
 
 .status-bar-item {
-  margin-top: -3px;
+  margin-top: 0px;
   padding:0 16px;
 }
 .status-bar-item-segment {
