@@ -1540,8 +1540,8 @@ border-bottom:1px solid #999;
 /* --------------- */
 /* Title Bar */
 
-.view-actions {
-  margin-right:1px;
+.view-actions .view-action {
+  margin-right:12px;
   z-index:15;
   background:var(--background-primary);
 }
