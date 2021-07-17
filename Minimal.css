@@ -2772,11 +2772,14 @@ input.search-input:focus {
   /* background-color:var(--background-secondary); */
   background-color: var(--background-sidedock);
   color:var(--text-muted);
+  font-family: var(--font-ui);
   font-size:var(--font-smaller);
   border-width:var(--border-width-alt);
   padding:0 4px 0;
 }
+
 .status-bar-item {
+  margin-top: -3px;
   padding:0 16px;
 }
 .status-bar-item-segment {
